@@ -1,0 +1,261 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 120vh;
+}
+.logo > img {
+    width: 140px;
+    margin: 5px;
+    margin-left: 15px;
+}
+.menu{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #623932;
+ 
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+nav > div{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+nav > div > a {
+    text-decoration: none;
+    font-size: larger;
+    color: #f9f5f0;
+}
+nav > div > a:hover{
+    color: #e5d5c2;
+
+}
+.banner{
+    width: 100%;
+    height: 750px;
+}
+.banner > img {
+    width: 100%;
+    max-height: 750px;
+}
+.slogan{
+    font-size: 40px;
+    color: white;
+    text-shadow: 2px 2px 4px #37282b;
+    position: absolute;
+    top: 51%;
+    Left: 26%
+}
+.NossosCavalos{
+    background-color: #b0978c;
+    padding: 30px;
+}
+
+.coberturas{
+    padding: 30px;
+    background-color: #bba69d;
+}
+.haras{
+    padding: 30px;
+    background-color: #b0978c;
+
+}
+.sobre{
+    padding: 30px;
+    background-color: #ddcdc3;
+  }
+.NossosCavalos, .coberturas, .haras{
+    min-height: 300px;
+    min-width: 250px;
+    padding: 15px;
+
+}
+center > h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    font-size: 35px;
+}
+center div{
+    color: rgb(255, 255, 255);
+    text-shadow: 2px 2px 4px #000000;
+
+}
+.c01{
+    background-image: url("../imagens/quartodemilha.jpeg");
+    flex: 2;
+}
+.c02{
+    background-image: url("../imagens/mangalarga.jpg");
+    flex: 1;
+}
+.c03{
+    background-image: url("../imagens/mangalargamarchador.jpg");
+    flex: 1;
+}
+.c04{
+    background-image: url("../imagens/crioulo.jpg");
+    flex: 1;
+}
+.c05{
+    background-image: url("../imagens/brasileirohipismo.jpg");
+    flex: 1;
+}
+.c06{
+    background-image: url("../imagens/appaloosa.jpg");
+    flex: 1;
+}
+.c07{
+    background-image: url("../imagens/andaluz.jpg");
+    flex: 1;
+}
+.c08{
+    background-image: url("../imagens/arabe.jpg");
+    flex: 2;
+}
+.racasRow, .cobRow, .harasRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.c01, .c02, .c03, .c04, .c05, .c06, .c07, .c08, .g01, .g02, .g03, .h01, .h02, .h03{
+    min-height: 300px;
+    min-width: 250px;
+    padding: 15px;
+    border: 1px solid #282523;
+    border-radius: 10px;
+    margin: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: bolder;
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.g01{
+    background-image: url("../imagens/hollandjeck.jpg");
+    flex: 1;
+}
+.g02{
+    background-image: url("../imagens/streakoffling.jpg");
+    flex: 1;
+}
+.g03{
+    background-image: url("../imagens/domroxao.jpg");
+    flex: 1;
+}
+
+.h01{
+    background-image: url("../imagens/milanny.jpg");
+    flex: 1;
+
+}
+.h02{
+    background-image: url("../imagens/fabiojose.jpg");
+    flex: 1;
+
+}
+.h03{
+    background-image: url("../imagens/harasws.jpg");
+    flex: 1;
+
+}
+.racasRows, .cobRow, .harasRow{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.descricao{
+    text-align: center;
+    font-size: 20px;
+}
+.descricao h2{
+    color: #442b1f;
+    margin: 10px;
+  }
+  .descricao h4{
+    color: #5f3b2b;
+    margin: 10px;
+  }
+  .descricao div{
+   margin: 10px;
+  }
+  .missaoVisaoValores{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .missao, .visao, .valores{
+    flex: 1;
+    padding: 10px;
+    min-width: 300px;
+    min-height: 200px;
+    text-align: center;
+    font-size: 20px;
+  }
+  .missao h2, > .visao h2, > .valores h2{
+    margin: 10px 0 10px 0;
+    color: rgb(128, 0, 0);
+  }
+  hr{
+    width: 15%;
+    margin: auto;
+    margin-bottom: 15px;
+    height: 2px;
+    background-color: gray;
+  }
+  .rodape{
+    display: flex;
+    flex-direction: row;
+
+    flex-wrap: wrap;
+
+    justify-content: space-around;
+    padding: 10px;
+    font-size: 20px;
+    background-color: gray;
+    padding-top: 40px;
+  }
+  .rodape .col-1, .rodape .col-2, .rodape .col-3{
+    flex: 1;
+    min-width: 300px;
+    height: 350px;
+    text-align: center;
+  }
+  .rodape .col-1 img, .rodape .col-1 p{
+    margin-bottom: 15px;
+  }
+  .rodape .col-2 h2{
+    margin-bottom: 40px;
+  }
+  .rodape .col-2 p{
+    margin-bottom: 15px;
+  }
+  .subRodape{
+    background-color: black;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    height: 40px;
+    color: #fff;
+    font-size: 18px;
+  }
+  .subRodape .col-2 a{
+    color: #fff;
+  }
